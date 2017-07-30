@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+#status{
+	width: 100%;
+	height: 30px;
+	background-color: #DFDFDF;
+	padding-top: 5px;
+}
+.while_block {
+	height: 200px;
+	width: 100%;
+	float: left;
+}
+.page_button {
+	text-align: right;
+	border: thin solid #CCC;
+	padding-right: 8px;
+	padding-left: 8px;
+	margin-left: 5px;
+	background-color: #F2F2F2;
+}
+.is_currentPage {
+	border-top-color: #F00;
+	border-right-color: #F00;
+	border-bottom-color: #F00;
+	border-left-color: #F00;
+
+}
+.page_selected {
+	width: 50px;
+	text-align: center;
+}
+.page_turnning {
+	float: right;
+	margin-right: 50px;
+}
+
+
+
+
+
+
+#status_text{
+	width:180px;
+	padding:5px;
+	margin-right:20px;
+	float:right;
+}
+
+#personDiv{
+	width: 200px;
+	height: 200px;
+	background-color:#E2E2E2;
+	position: absolute;
+	z-index: 10;
+	right: 0px;
+	display: none;
+	border-bottom-width: medium;
+	border-bottom-style: double;
+	border-bottom-color: #3F3F3F;
+}
+
+.touxiangDiv{
+	height:80px;
+	margin-left:20px;
+	margin-top:20px;
+	float:left;	
+}
+
+.usernameDiv{
+	height:60px;
+	margin-left:10px;
+	margin-top:20px;
+	padding-top:20px;
+	float:left;
+}
+
+.buttonDiv{
+	height:60px;
+	margin-left:20px;
+	margin-top:5px;
+	float:left;	
+}
+
+
+.touxiang{
+	width:80px;
+	border-radius: 80%;
+}
+
+.button{
+	
+}
+
+
+#all{
+	width: 100%;
+	/*position:relative;
+	z-index:-2;*/
+	top: 0;
+	right: 0;
+	left: 0;
+	background: linear-gradient( #DFFFFF, #B7FFFF);
+	background-image: url(1.jpg);
+}
+
+
+
+
+
+
+
+
+#copyright{
+	width: 100%;
+	height: 150px;
+	background-color:#494949;
+	clear: left;
+	margin: 0px auto;
+	margin-top:550px;
+}
+
+#copyright_left{
+	margin-left:15%;
+	padding:30px;
+	padding-left:80px;
+	width:20%;
+	height:60%;
+	float:left;
+}
+
+#copyright_center{
+	width:20%;
+	height:60%;
+	padding:30px;
+	float:left;
+}
+.shop_info{
+	font-size:18px;
+	color:#000;
+}
+#copyright_right{
+	width:20%;
+	height:60%;
+	padding:30px;
+	float:left;
+}
+#head {
+	height: 100%;
+	width: 80%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.regist_date {
+	font-weight: 400;
+	color: #FFF;
+}
+#content {
+	width: 80%;
+	margin: auto;
+	color: #000;
+}
+li {
+	padding-bottom: 10px;
+}
+#content_right {
+	position: absolute;
+}
+
+
+.visit_data {
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.self_data {
+	background-color: #FFF;
+	float: left;
+}
+.article_all {
+	background-color: #FFF;
+	width: 100%;
+	margin-top: 20px;
+	float: left;
+}
+.article_year {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+}
+.article_order_by_popular {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+.article_name {
+	background-color: #FFF;
+	padding: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+
+.title_info {
+	background-color: #F0F0F0;
+	padding: 5px;
+	color: #CCC;
+}
+.text_info {
+	color: #666;
+}
+.classify_div {
+	background-color: #F7F8DE;
+	width: 70px;
+	height: 40px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+
+
+
+
+#content_left {
+	width: 200px;
+	float: left;
+}
+.content_head {
+	background-color: #333;
+	height: 50px;
+	width: 100%;
+}
+#content_center {
+	background-color: #FFF;
+	float: right;
+	height: 800px;
+	width: 78%;
+}
+#content_right {
+	float: right;
+	width: 5%;
+	background-color: #F33;
+	height: 100px;
+	position: fixed;
+	left: 90%;
+}
+.yuanchuang_logo {
+	height: 20px;
+	width: 20px;
+}
+.article_info {
+	width: 75%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.article_deliver_date {
+	float: right;
+	width: 100px;
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+.article_list {
+	margin-top: 30px;
+}
+.line {
+	text-align: center;
+	color: #CCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+	height: 150px;
+	width: 150px;
+	border-radius: 200px;
+}
+#head_logo {
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	height: 150px;
+	width: 150px;
+}
